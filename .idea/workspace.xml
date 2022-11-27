@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3a2a045c-0e05-4f8e-a32d-a7326a73dbe6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/example/hellospring/service/MemberServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/hellospring/service/MemberService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/hellospring/service/MemberService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/example/hellospring/service/MemberServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/example/hellospring/service/MemberServiceTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,7 +101,38 @@
       <recent name="com.example.hellospring.service" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.MemberServiceTest.join">
+  <component name="RunManager" selected="JUnit.MemberServiceTest">
+    <configuration name="MemberServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hellospring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.hellospring.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hellospring.service.MemberServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MemberServiceTest.duplicatedMemberJoin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hello-spring.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.hellospring.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.example.hellospring.service" />
+      <option name="MAIN_CLASS_NAME" value="com.example.hellospring.service.MemberServiceTest" />
+      <option name="METHOD_NAME" value="duplicatedMemberJoin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MemberServiceTest.join" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="hello-spring.test" />
       <extension name="coverage">
@@ -148,38 +180,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MemoryMemberRepositoryTest.findByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.hellospring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.hellospring.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hellospring.repository.MemoryMemberRepositoryTest" />
-      <option name="METHOD_NAME" value="findByName" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MemoryMemberRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="hello-spring.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.example.hellospring.repository.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.example.hellospring.repository" />
-      <option name="MAIN_CLASS_NAME" value="com.example.hellospring.repository.MemoryMemberRepositoryTest" />
-      <option name="METHOD_NAME" value="save" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="HelloSpringApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="hello-spring.main" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.hellospring.HelloSpringApplication" />
@@ -189,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MemberServiceTest" />
+        <item itemvalue="JUnit.MemberServiceTest.duplicatedMemberJoin" />
         <item itemvalue="JUnit.MemberServiceTest.join" />
         <item itemvalue="JUnit.MemoryMemberRepositoryTest" />
         <item itemvalue="JUnit.MemoryMemberRepositoryTest.findAll" />
-        <item itemvalue="JUnit.MemoryMemberRepositoryTest.findByName" />
-        <item itemvalue="JUnit.MemoryMemberRepositoryTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -208,7 +208,7 @@
       <workItem from="1669224241669" duration="4330000" />
       <workItem from="1669308024122" duration="2388000" />
       <workItem from="1669436063840" duration="399000" />
-      <workItem from="1669478962459" duration="5397000" />
+      <workItem from="1669478962459" duration="6321000" />
     </task>
     <servers />
   </component>
